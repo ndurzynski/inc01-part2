@@ -2,6 +2,13 @@
 
 - **Course:** CSC 4360, Flutter & Dart
 
+## Team Roster - In-Class 1 v3
+
+| Member | GitHub Username | Contribution |
+|---|---|---|
+| Niki Durzynski | @ndurzynski | Created repo, built repo scaffolding, pushed own reflection questions |
+| Dominic Le | @starlitfire | Pushed co-answered questions onto repo, pushed own reflection questions |
+
 ---
 
 ## 1. Widget Tree
@@ -34,7 +41,7 @@ This is because that array is what dictates how many tabs are created initially 
 **Answer:**
 ```
 Text Widget -  Stateless
-AppBar - Stateful
+ElevatedButton - Stateful
 ```
 
 One widget that is stateless is my Text Widget in Tab 1.If it were turned into a Stateful widget, there would be nothing needed for the Text widget to do, so it would be waiting for the user input for no reason.
@@ -71,4 +78,5 @@ I think that the declarative approach used in Flutter may be easier to maintain 
 **Answer:**
 
 I think the hardest part is setting up everyone's branches. For future projects, I will dedicate the first day to just making sure everyone's git and branches are working properly on their own devices before assigning anything.
+
 ---
