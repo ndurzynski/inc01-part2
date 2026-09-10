@@ -24,4 +24,4 @@ What is one thing you learned from watching how your teammate approached a probl
 One thing I learned from watching my teammate was how to stay organized while merging/commiting.
 
 How did the two of you resolve any disagreements or merge conflicts, and what would you try differently next time?
-I think I will try to minimize the amount of merge conflicts by seperating where each person works.
+I think I will try to minimize the amount of merge conflicts by seperating where each person works.   
