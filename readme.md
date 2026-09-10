@@ -11,8 +11,17 @@
 **Answer:**
 
 ```text
+Scaffold
+├─ AppBar → TabBar (Tab 1, Tab 2, Tab 3, Tab 4)
+├─ TabBarView
+│ ├─ Container → Center → Text + ElevatedButton (Tab 1)
+│ ├─ Container → Column → Image + TextField (Tab 2)
+│ ├─ Container → Center → ElevatedButton (Tab 3)
+│ └─ Container → ListView → Card → ListTile (Tab 4)
+└─ BottomAppBar → Text
 
-Put Scaffold Here
+If I were to add a fifth tab, the first node in the tree I would ened to change first is adding to the TabBar array.
+This is because that array is what dictates how many tabs are created initially before any tabs get their content.
 
 ```
 
@@ -28,6 +37,9 @@ Text Widget -  Stateless
 AppBar - Stateful
 ```
 
+One widget that is stateless is my Text Widget in Tab 1.If it were turned into a Stateful widget, there would be nothing needed for the Text widget to do, so it would be waiting for the user input for no reason.
+
+One widget that is stateful is my ElevatedButton in Tab 1.If it were turned into a Stateless widget, when you click the button, nothing will happen as the Button is unable to see that the user clicked the button, which therefore would not pop up the AlertDialog.
 
 ---
 
@@ -38,6 +50,8 @@ AppBar - Stateful
 **Answer:**
 
 
+As the app is used more and more, the memory that the widget used is never deallocated, which means that the memory cannot be used for other purposes. This causes a memory leak where if not handled, will lead to decreased performance of the device and can lead to a crash. 
+
 ---
 
 ## 4. Declarative UI
@@ -46,6 +60,7 @@ AppBar - Stateful
 
 **Answer:**
 
+I think that the declarative approach used in Flutter may be easier to maintain as it is easier to find(?) in Flutter versus imperative approaches.
 
 ---
 
@@ -55,5 +70,5 @@ AppBar - Stateful
 
 **Answer:**
 
-
+I think the hardest part is setting up everyone's branches. For future projects, I will dedicate the first day to just making sure everyone's git and branches are working properly on their own devices before assigning anything.
 ---
